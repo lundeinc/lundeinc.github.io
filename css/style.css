@@ -116,7 +116,7 @@ div {
 .threecolumn {
     width: 100%;
     text-align: center;
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
 }
 
