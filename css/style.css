@@ -215,6 +215,14 @@ h5 {
 
     /* header stuff */
     
+    #title {
+        height: 150px;
+    }
+    
+    #title_div_center {
+        height: 200px;
+    }
+    
     #logo {
         display: none;
     }
