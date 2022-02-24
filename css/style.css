@@ -223,7 +223,7 @@ h5 {
 
 /* for mobile version of the site */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
 
     /* header stuff */
     
