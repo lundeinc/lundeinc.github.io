@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --lundeBlue: #113077;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* header */
+
+#cover {
+    width: 100%;
+    height: 150px;
+}
+
+#title_div_center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    background-color: lightgray;
+    align-content: center;
+    justify-content: space-around;
+    position: absolute;
+    padding-top: .5%;
+}
+
+#title {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    height: 140px;
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+#nav_bar {
+    margin: 0px;
+    width: 100%;
+    height: 25px;
+    background-color: var(--lundeBlue);
+    margin-top: 150px;
+}
+
+.titleTextDiv {
+    float: right;
+    height: 150px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+.titleText {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    float: right;
+    font-weight: bold;
+}
+
+/* home page */
+
+.photos {
+    margin-left: 5%;
+    width: 25%;
+    float: left;
+    margin-top:5%;
+}
+
+#historyText {
+    width: 25%;
+    padding: 10px;
+    font-family: mofnospace;
+    font-size: 1.5vw;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#history1 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#history2 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+/* general formatting stuff */
+
+div {
+    overflow: auto;
+}
+
+.threecolumn {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactColumn {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    margin-bottom: 10%;
+    overflow: visible;
+}
+
+#vendorTextDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vendorColumn {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    margin-bottom: 10%;
+    overflow: visible;
+}
+
+h3 {
+    font-size: 2vw
+}
+
+h4 {
+    font-size: 1.5vw
+}
+
+h5 {
+    font-size: 1vw;
+}
+
+/* contact section */
+
+#contactDiv {
+    text-align: center;
+}
+
+#contactCallDiv {
+    text-align: center;
+}
+
+#emailDiv {
+    text-align: center;
+}
+
+.contactSymbol {
+    height: 50px;
+    margin: 15px;
+}
+
+.gmaps {
+    margin-top: 10%;
+    width: 90%;
+    height: 300px
+}
+
+/* Vendors Section */
+
+#vendorText {
+    color: var(--lundeBlue);
+    font-size: 3vw;
+    margin: 25px;
+}
+
+.vendorImage {
+    width: 50%;
+    margin-top:40px;
+}
+
+.vendorColumn {
+    display: block;
+}
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    background-color: var(--lundeBlue);
+    height: 50px;
+}
+
+.footerText {
+    display: inline;
+    color: gray;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5px;
+}
+
+#leftFooter {
+    float: left;
+}
+
+#rightFooter {
+    float: right;
+}
+
+/* for mobile version of the site */
+
+@media screen and (max-width: 800px) {
+
+    /* header stuff */
+    
+    #title_div {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        color: black;
+        display: block;
+        float: inline-start;
+    }
+    
+    #title {
+        float: left;
+        height: 90%;
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    
+    #logo {
+        float: left;
+        height: 90%;
+    }
+
+    .titleTextDiv {
+        width: 30%;
+    }
+
+    /* contact info div */
+    .contactColumn {
+        width: 90%;
+        margin: 5%;
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+    
+    h4 {
+        font-size: 5.5vw;
+    }
+    
+    h5 {
+        font-size: 5vw;
+    }
+
+    /* about info div */
+
+    .photos {
+        width: 90%;
+        margin:5%;
+    }
+    
+    #historyText {
+        width: 90%;
+        font-size: 4.5vw;
+        text-align: center;
+        margin: 5%;
+    }
+
+    /* Vendors Section */
+
+    #vendorText {
+        color: var(--lundeBlue);
+        font-size: 5vw;
+        margin: 25px;
+    }
+
+    .vendorImage {
+        width: 60%;
+        margin-top:40px;
+    }
+
+    .vendorColumn {
+        display: block;
+        float: left;
+        width: 30%;
+        margin: 1.5%;
+        margin-bottom: 10%;
+        overflow: visible;
+    }
+    
+}
