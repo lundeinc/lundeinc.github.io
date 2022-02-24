@@ -245,12 +245,11 @@ h5 {
     }
     
     #logo {
-        float: left;
-        height: 90%;
+        display: none;
     }
 
     .titleTextDiv {
-        width: 30%;
+        display: none;
     }
 
     /* contact info div */
