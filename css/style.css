@@ -217,10 +217,7 @@ h5 {
     
     #title {
         height: 150px;
-    }
-    
-    #title_div_center {
-        height: 200px;
+        margin-top: 0;
     }
     
     #logo {
