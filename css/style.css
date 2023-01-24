@@ -19,23 +19,6 @@ a {
     height: 150px;
 }
 
-#title_div_center {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
-    display: flex;
-    background-color: lightgray;
-    align-content: center;
-    justify-content: space-around;
-    position: absolute;
-    padding-top: .5%;
-}
-
 #title {
     height: 150px;
     margin-left: auto;
@@ -53,7 +36,12 @@ a {
     width: 100%;
     height: 25px;
     background-color: var(--lundeBlue);
-    margin-top: 150px;
+}
+
+#title_div_center {
+    height: 200px;
+    background-color: gray;
+    display: flex;
 }
 
 .titleTextDiv {
@@ -223,34 +211,21 @@ h5 {
 
 /* for mobile version of the site */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
 
     /* header stuff */
     
-    #title_div {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 50px;
-        color: black;
-        display: block;
-        float: inline-start;
-    }
-    
     #title {
-        float: left;
-        height: 90%;
+        height: 150px;
         margin-top: 0;
-        margin-left: 5%;
     }
     
     #logo {
-        float: left;
-        height: 90%;
+        display: none;
     }
 
     .titleTextDiv {
-        width: 30%;
+        display: none;
     }
 
     /* contact info div */
